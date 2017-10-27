@@ -2,6 +2,9 @@
 
 A storybook addon that display the window size on the right bottom corner.
 
+<p align="center"><img src="https://file-yyzlpeuetk.now.sh/" width=700 alt="storybook-window-size"></p>
+
+
 ## Install
 
 ```
