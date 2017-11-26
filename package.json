@@ -1,10 +1,12 @@
 {
   "name": "storybook-window-size",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Display window size on your storybook",
-  "main": "src/ScreenDimensions.js",
+  "main": "dist/ScreenDimensions.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "build": "babel src -d dist"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/hakimelek/storybook-window-size/issues"
   },
-  "homepage": "https://github.com/hakimelek/storybook-window-size#readme"
+  "homepage": "https://github.com/hakimelek/storybook-window-size#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-jest": "^20.0.3",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1"
+  }
 }
